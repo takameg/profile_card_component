@@ -3,33 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <div class="container">
 
-  80K
-  Followers
+    <div class="top">
+    </div>
 
-  803K
-  Likes
+    <div class="card">
+      <div class="cardTop"> 
+      </div>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      
+      <img src="images/image-victor.jpg" alt="Profile Photo" class="profilePhoto">
+      
+
+      <div class="cardMiddle"> 
+        <p class="bold" id="name">Victor Crest <span class="light">26</span></p>
+        <p class="light"  id="location">London</p>
+      </div>
+
+     
+
+      <div class="cardBottom"> 
+        <div class="followers">
+          <p class="bold">80K</p>
+          <p class="light">Followers</p>
+        </div>
+
+        <div class="likes">
+          <p class="bold">803K</p>
+          <p class="light">Likes</p>
+        </div>
+        
+        <div class="photos">
+          <p class="bold">1.4K</p>
+          <p class="light"> Photos</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">takameg</a>.
+    </div>
+
+    <div class="bottom">
+    </div>
+
   </div>
 </body>
 </html>
